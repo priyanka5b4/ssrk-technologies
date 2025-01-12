@@ -94,7 +94,7 @@
         o = n(8521);
       function u(e, t) {
         return (0, o.normalizePathTrailingSlash)(
-          (0, r.addPathPrefix)(e, "/landing-page")
+          (0, r.addPathPrefix)(e, "/ssrk-technologies")
         );
       }
       ("function" == typeof t.default ||
@@ -4448,7 +4448,7 @@
         });
       let r = n(580);
       function o(e) {
-        return (0, r.pathHasPrefix)(e, "/landing-page");
+        return (0, r.pathHasPrefix)(e, "/ssrk-technologies");
       }
       ("function" == typeof t.default ||
         ("object" == typeof t.default && null !== t.default)) &&
@@ -4516,7 +4516,7 @@
           },
         }),
         n(1283);
-      let r = "/landing-page";
+      let r = "/ssrk-technologies";
       function o(e) {
         return (
           0 === r.length ||
