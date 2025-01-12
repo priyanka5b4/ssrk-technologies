@@ -192,7 +192,7 @@
     (d.tu = function (e) {
       return d.tt().createScriptURL(e);
     }),
-    (d.p = "/landing-page/next/"),
+    (d.p = "/ssrk-technologies/next/"),
     (i = { 272: 0, 776: 0 }),
     (d.f.j = function (e, t) {
       var n = d.o(i, e) ? i[e] : void 0;

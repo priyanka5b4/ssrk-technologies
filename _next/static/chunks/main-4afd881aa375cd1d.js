@@ -94,7 +94,7 @@
         o = r(8796);
       function a(e, t) {
         return (0, o.normalizePathTrailingSlash)(
-          (0, n.addPathPrefix)(e, "/landing-page")
+          (0, n.addPathPrefix)(e, "/ssrk-technologies")
         );
       }
       ("function" == typeof t.default ||
@@ -248,7 +248,7 @@
         });
       let n = r(5298);
       function o(e) {
-        return (0, n.pathHasPrefix)(e, "/landing-page");
+        return (0, n.pathHasPrefix)(e, "/ssrk-technologies");
       }
       ("function" == typeof t.default ||
         ("object" == typeof t.default && null !== t.default)) &&
@@ -558,7 +558,7 @@
                             640, 750, 828, 1080, 1200, 1920, 2048, 3840,
                           ],
                           imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                          path: "/landing-page/next/image",
+                          path: "/ssrk-technologies/next/image",
                           loader: "default",
                           dangerouslyAllowSVG: !1,
                           unoptimized: !1,
@@ -1142,7 +1142,7 @@
           },
         }),
         r(1838);
-      let n = "/landing-page";
+      let n = "/ssrk-technologies";
       function o(e) {
         return (
           0 === n.length ||
@@ -4583,7 +4583,7 @@
           (this.events = V.events), (this.pageLoader = i);
           let O = (0, p.isDynamicRoute)(e) && self._next_DATA__.autoExport;
           if (
-            ((this.basePath = "/landing-page"),
+            ((this.basePath = "/ssrk-technologies"),
             (this.sub = f),
             (this.clc = null),
             (this._wrapApp = l),
