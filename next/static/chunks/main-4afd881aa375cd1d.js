@@ -523,7 +523,7 @@
           (window._next_P = []),
           (window._next_P.push = s),
           ((l = (0, M.default)()).getIsSsr = () => n.isSsr),
-          (u = document.getElementById("_next")),
+          (u = document.getElementById("next")),
           { assetPrefix: t }
         );
       }
@@ -1346,7 +1346,7 @@
             }, [e]),
             (0, o.jsx)("p", {
               "aria-live": "assertive",
-              id: "_next-route-announcer__",
+              id: "next-route-announcer__",
               role: "alert",
               style: u,
               children: t,

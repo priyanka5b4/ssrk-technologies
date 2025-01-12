@@ -366,7 +366,7 @@
                   let t = document.createElement("div");
                   return (
                     (t.ariaLive = "assertive"),
-                    (t.id = "_next-route-announcer__"),
+                    (t.id = "next-route-announcer__"),
                     (t.role = "alert"),
                     (t.style.cssText =
                       "position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal"),
@@ -3515,7 +3515,7 @@
                 "string" == typeof n)
               )
                 return _(e, R, n, O);
-              if (document.getElementById("_next-page-redirect"))
+              if (document.getElementById("next-page-redirect"))
                 return _(e, R, j, O);
               let b = e.tree,
                 g = e.cache,

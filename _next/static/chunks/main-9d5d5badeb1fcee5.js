@@ -495,12 +495,14 @@
       async function $(e) {
         void 0 === e && (e = {}),
           W.default.onSpanEnd(q.default),
-          (o = JSON.parse(document.getElementById("_next_DATA__").textContent)),
-          (window._next_DATA__ = o),
+          (o = JSON.parse(
+            document.getElementById("__NEXT_DATA__").textContent
+          )),
+          (window.__NEXT_DATA__ = o),
           (h = o.defaultLocale);
         let t = o.assetPrefix || "";
         if (
-          (self._next_set_public_path__("" + t + "/next/"),
+          (self.__next_set_public_path__("" + t + "/next/"),
           (0, w.setConfig)({
             serverRuntimeConfig: {},
             publicRuntimeConfig: o.runtimeConfig || {},
@@ -518,12 +520,12 @@
           return i.routeLoader.onEntrypoint(t, r);
         };
         return (
-          window._next_P &&
-            window._next_P.map((e) => setTimeout(() => s(e), 0)),
-          (window._next_P = []),
-          (window._next_P.push = s),
+          window.__NEXT_P &&
+            window.__NEXT_P.map((e) => setTimeout(() => s(e), 0)),
+          (window.__NEXT_P = []),
+          (window.__NEXT_P.push = s),
           ((l = (0, M.default)()).getIsSsr = () => n.isSsr),
-          (u = document.getElementById("next")),
+          (u = document.getElementById("__next")),
           { assetPrefix: t }
         );
       }
@@ -545,7 +547,7 @@
               value: (0, F.adaptForSearchParams)(n),
               children: (0, g.jsx)(F.PathnameContextProviderAdapter, {
                 router: n,
-                isAutoExport: null != (t = self._next_DATA__.autoExport) && t,
+                isAutoExport: null != (t = self.__NEXT_DATA__.autoExport) && t,
                 children: (0, g.jsx)(B.PathParamsContext.Provider, {
                   value: (0, F.adaptForPathParams)(n),
                   children: (0, g.jsx)(E.RouterContext.Provider, {
@@ -868,8 +870,8 @@
         } catch (e) {
           t = (0, L.getProperError)(e);
         }
-        window._next_PRELOADREADY &&
-          (await window._next_PRELOADREADY(o.dynamicIds)),
+        window.__NEXT_PRELOADREADY &&
+          (await window.__NEXT_PRELOADREADY(o.dynamicIds)),
           (n = (0, A.createRouter)(o.page, o.query, a, {
             initialProps: o.props,
             pageLoader: i,
@@ -1346,7 +1348,7 @@
             }, [e]),
             (0, o.jsx)("p", {
               "aria-live": "assertive",
-              id: "next-route-announcer__",
+              id: "__next-route-announcer__",
               role: "alert",
               style: u,
               children: t,
@@ -1958,7 +1960,7 @@
                   nonce: P,
                   dangerouslySetInnerHTML: {
                     __html:
-                      "(self._next_s=self._next_s||[]).push(" +
+                      "(self.__next_s=self.__next_s||[]).push(" +
                       JSON.stringify([r, { ...h, id: t }]) +
                       ")",
                   },
@@ -1970,7 +1972,7 @@
                   nonce: P,
                   dangerouslySetInnerHTML: {
                     __html:
-                      "(self._next_s=self._next_s||[]).push(" +
+                      "(self.__next_s=self.__next_s||[]).push(" +
                       JSON.stringify([0, { ...h, id: t }]) +
                       ")",
                   },
@@ -1991,7 +1993,7 @@
         }
         return null;
       }
-      Object.defineProperty(y, "_nextScript", { value: !0 });
+      Object.defineProperty(y, "__nextScript", { value: !0 });
       let b = y;
       ("function" == typeof t.default ||
         ("object" == typeof t.default && null !== t.default)) &&
@@ -2128,7 +2130,7 @@
       "use strict";
       Object.defineProperty(t, "__esModule", { value: !0 }),
         r(4878),
-        (self._next_set_public_path__ = (e) => {
+        (self.__next_set_public_path__ = (e) => {
           r.p = e;
         }),
         ("function" == typeof t.default ||
@@ -2680,8 +2682,8 @@
         D = ["/_document", "/_app", "/_error"],
         k = "public",
         U = "static",
-        F = "_next_DROP_CLIENT_FILE__",
-        B = "_next_BUILTIN_DOCUMENT__",
+        F = "__NEXT_DROP_CLIENT_FILE__",
+        B = "__NEXT_BUILTIN_DOCUMENT__",
         H = "__barrel_optimize__",
         W = "client-reference-manifest",
         q = "server-reference-manifest",
@@ -3372,7 +3374,7 @@
             if (
               (!l ||
                 u ||
-                l.includes("_next_data_catchall") ||
+                l.includes("__next_data_catchall") ||
                 l.includes("/_error") ||
                 l.includes("/404") ||
                 (u = l),
@@ -3951,7 +3953,7 @@
             }
             H &&
               "/_error" === this.pathname &&
-              (null == (f = self._next_DATA__.props)
+              (null == (f = self.__NEXT_DATA__.props)
                 ? void 0
                 : null == (c = f.pageProps)
                 ? void 0
@@ -3986,7 +3988,7 @@
               )
                 throw Error("Unexpected middleware effect on " + this.pathname);
               "/_error" === this.pathname &&
-                (null == (x = self._next_DATA__.props)
+                (null == (x = self.__NEXT_DATA__.props)
                   ? void 0
                   : null == (R = x.pageProps)
                   ? void 0
@@ -4145,8 +4147,8 @@
               (w && ("/_error" === r || "/404" === r) && (w.effect = void 0),
               h &&
                 (w
-                  ? (w.json = self._next_DATA__.props)
-                  : (w = { json: self._next_DATA__.props })),
+                  ? (w.json = self.__NEXT_DATA__.props)
+                  : (w = { json: self.__NEXT_DATA__.props })),
               t(),
               (null == w
                 ? void 0
@@ -4581,7 +4583,7 @@
                 this._bfl_d.import(n));
           }
           (this.events = V.events), (this.pageLoader = i);
-          let O = (0, p.isDynamicRoute)(e) && self._next_DATA__.autoExport;
+          let O = (0, p.isDynamicRoute)(e) && self.__NEXT_DATA__.autoExport;
           if (
             ((this.basePath = "/ssrk-technologies"),
             (this.sub = f),
@@ -4590,10 +4592,10 @@
             (this.isSsr = !0),
             (this.isLocaleDomain = !1),
             (this.isReady = !!(
-              self._next_DATA__.gssp ||
-              self._next_DATA__.gip ||
-              self._next_DATA__.isExperimentalCompile ||
-              (self._next_DATA__.appGip && !self._next_DATA__.gsp) ||
+              self.__NEXT_DATA__.gssp ||
+              self.__NEXT_DATA__.gip ||
+              self.__NEXT_DATA__.isExperimentalCompile ||
+              (self.__NEXT_DATA__.appGip && !self.__NEXT_DATA__.gsp) ||
               (!O && !self.location.search)
             )),
             (this.state = {
